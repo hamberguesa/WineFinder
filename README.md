@@ -1,6 +1,6 @@
 #WineFinder
 
-A Rails app that streams tweets hashtagged with #wine, #vino, or #vin onto a Leaflet.js map and is searchable with Angular.js.
+A Rails app that streams tweets hashtagged with #wine or #vino onto a Leaflet.js map and is searchable with Angular.js.
 
 ##Product Objectives
 
