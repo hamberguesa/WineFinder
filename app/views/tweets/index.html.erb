@@ -1,2 +1,7 @@
-You are home
+You are home <br>
 
+
+<% @tweets["statuses"].each do |tweet| %>
+@<%= tweet["user"]["screen_name"] %> <br>
+<%= tweet["text"] %><br>
+<% end %>

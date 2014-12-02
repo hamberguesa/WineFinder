@@ -30,6 +30,7 @@ gem 'httparty'
 gem 'oauth'
 gem 'json'
 gem 'thin', '~> 1.6.3'
+gem 'dotenv'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
