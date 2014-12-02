@@ -1,7 +1,14 @@
 You are home <br>
 
 
-<% @tweets["statuses"].each do |tweet| %>
+<% @wine_tweets["statuses"].each do |tweet| %>
 @<%= tweet["user"]["screen_name"] %> <br>
 <%= tweet["text"] %><br>
+<%= tweet["user"]["location"] %> <br>
+<% end %>
+
+<% @vino_tweets["statuses"].each do |tweet| %>
+@<%= tweet["user"]["screen_name"] %> <br>
+<%= tweet["text"] %><br>
+<%= tweet["user"]["location"] %> <br>
 <% end %>
